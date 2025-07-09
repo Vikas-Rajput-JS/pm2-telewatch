@@ -45,19 +45,8 @@ Start a chat with your bot by sending /start
 Before using pm2-telewatch, set up your environment variables.
 
 ✅ Create a .env file in your project:
-env
-Copy
-Edit
 BOT_TOKEN=123456789:ABCdefGhIJKLmnoPQRstuvWXyz12345678
-CHAT_ID=123456789
-PM2_APP_NAME=my-app   # Optional: monitor only this app
-Alternatively, set them directly in your environment:
-
-bash
-Copy
-Edit
-export BOT_TOKEN=...
-export PM2_APP_NAME=my-app
+PM2_APP_NAME=my-app   # Optional: monitor only this app.
 
 ```
 
