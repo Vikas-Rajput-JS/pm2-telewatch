@@ -1,0 +1,34 @@
+{
+  "name": "pm2-telewatch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vikas Rajput",
+  "license": "ISC",
+"description": "A minimal PM2 utility to send real-time crash and restart alerts to Telegram via a bot. Stay informed when your Node.js app fails or restarts unexpectedly.",
+"keywords": [
+  "pm2",
+  "telegram",
+  "pm2-notify",
+  "pm2-telegram",
+  "pm2 alerts",
+  "pm2 notifications",
+  "pm2 monitor",
+  "nodejs monitoring",
+  "telegram bot",
+  "telegram notify",
+  "devops",
+  "crash alert",
+  "process monitor",
+  "node pm2",
+  "uptime alerts"
+],
+  "dependencies": {
+    "axios": "^1.10.0",
+    "dotenv": "^17.1.0",
+    "pm2": "^6.0.8",
+    "winston": "^3.17.0"
+  }
+}
